@@ -218,7 +218,7 @@ The project **exceeds all coverage thresholds**:
 
 #### Overall Coverage Summary
 
-![Coverage Overview](screenshots/coverage-overview.png)
+![Coverage Overview](screenshots/Coverage-overview.png)
 
 **Coverage by Module:**
 - **Client Components**: 96.29% coverage
@@ -233,13 +233,13 @@ The project **exceeds all coverage thresholds**:
 
 #### Client-Side Coverage
 
-![Client Coverage](screenshots/coverage-client.png)
+![Client Coverage](screenshots/Coverage-client.png)
 
 Client components show excellent coverage with 96.29% overall.
 
 #### Server-Side Coverage
 
-![Server Coverage](screenshots/coverage-server.png)
+![Server Coverage](screenshots/Coverage-server.png)
 
 Server modules demonstrate strong coverage across all layers.
 
