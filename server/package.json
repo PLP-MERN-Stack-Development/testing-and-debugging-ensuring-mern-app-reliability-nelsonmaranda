@@ -1,0 +1,34 @@
+{
+  "name": "mern-testing-server",
+  "version": "1.0.0",
+  "description": "Express server for MERN testing assignment",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "jest --testPathPattern='server' --coverage",
+    "test:unit": "jest --testPathPattern='server/tests/unit' --coverage",
+    "test:integration": "jest --testPathPattern='server/tests/integration' --coverage"
+  },
+  "keywords": [
+    "express",
+    "mongodb",
+    "api"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^8.0.3",
+    "dotenv": "^16.3.1",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "cors": "^2.8.5",
+    "morgan": "^1.10.0",
+    "express-validator": "^7.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
+
